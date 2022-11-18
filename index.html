@@ -3,8 +3,10 @@
 <!-- Hamster Hotel -->
 <!-- This is a website built from the Hamster Hotel prototype -->
 <!-- prototype: https://xd.adobe.com/spec/3e3b745f-aa5a-460e-5fd7-8cc90c248d21-480a/specs/ -->
-<!-- github link:  -->
-<!-- peer review:  -->
+<!-- github link: https://github.com/sfdiscoqueen/LeekJHamsterHotel.git -->
+<!-- peer review: Good effort on the website, Jasmine! I can tell you ran out of time to do certain stuff, because a lot of the errors here look like you just didn’t get around to fixing them versus not knowing how to do this or that. Things look mostly alright in desktop mode. I can tell you probably weren’t scripting with the 1920x1200 in mind. If you “inspect” your website and manually set the dimensions at the top of the screen, you can better design things for next time. But yeah, there’s a number of misaligned things here that could probably be cleaned up fast if we had more time. The only thing that’s straight up missing is the text fields in the “Reserve a Room” section.
+The responsiveness isn’t great but I can tell there was an attempt. Things look mostly ok in tablet form aside from some misalignment. I can tell the “Packages” section must have been really annoying to do because your columns just break at resolutions that small. They gave me a hard time as well, to the point where I redid them from scratch. The mobile section probably looks worse than it really is in the inspect view. most of the columns seem formatted to line up in a certain way, but there’s so much “overflow” from the images not adjusting that everything just kind of breaks, creating a huge white margin on the right side. Something I don’t think would actually be all that visible or bad when actually on a phone browser, since it would probably just be off-screen..That was probably some of the most challenging part of designing the responsiveness.
+So yeah, good effort, Jasmine! Don’t get down on yourself, there’s a very promising foundation here. I think if you had more time you could have polished this up nicely; and I know it’s probably difficult for you to find time outside of class to work on this.” -Kenneth Fujimura -->
 
 <!doctype html>
 <html lang="en">
@@ -261,9 +263,14 @@
                 <div class="col-5">
                 <p class="amenitiesTitle">Reserve a Room</p>
                 <p class="resFormText">Check-in</p>
+                <input class="form-control" type="text" aria-label="default input example">
                 <p class="resFormText">Check-out</p>
+                <input class="form-control" type="text" aria-label="default input example">
                 <p class="resFormText">Number of Guests</p>
+                <input class="form-control" type="text" aria-label="default input example">
                 <p class="resFormText">Room Type</p>
+                <input class="form-control" type="text" aria-label="default input example">
+                <button type="button" class="btn btn-primary">Check Availability</button>
             </div>
             </div>
             <div class="row">
