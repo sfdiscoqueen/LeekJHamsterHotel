@@ -1,0 +1,173 @@
+/* navigation styles */
+.navBg {
+    background-color: #000324;
+}
+
+.navText {
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    border: 2px solid #000324;
+}
+
+.logoHead {
+    margin-top: 9px; 
+    margin-bottom: 11px;
+}
+
+.hoverText {
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    border: 2px solid #E5FEFF;
+}
+
+/* featured banner styles */
+
+.featImg {
+    max-height: 500px;
+    position: relative;
+}
+
+.featBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 945px;
+    height: 232px;
+    background-color: #000324;
+    opacity: 0.8;
+    color: white;
+    font-family: 'Dosis', sans-serif;
+}
+.featTitle{
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    font-size: 45px;
+    text-align: center;
+}
+.featText{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* page styles */
+
+.overviewTitle{
+    color: #1A1B26;
+    font-family: 'Dosis', sans-serif;
+    font-size: 35px;
+    text-align: center;
+}
+.overviewText{
+    color: #1A1B26;
+    font-family: 'Dosis', sans-serif;
+    font-size: 35px;
+    text-align: left;
+}
+
+.roomBg{
+    background-image: url(../images/bg2.jpg);
+    
+}
+
+.roomBg2{
+    background-image: url(../images/bg.jpg);
+}
+
+.cardTitle{
+    color: #1A1B26;
+    font-family: 'Dosis', sans-serif;
+    font-size: 25px;
+    text-align: left;
+}
+
+.resBtnText{
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.listText{
+    color: #1A1B26;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    text-align: left
+}
+
+.pkgText{
+    color: #1F51A8;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    text-align: left
+}
+
+.amenitiesTitle{
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 35px;
+}
+
+.amenitiesText{
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.resFormText{
+    color: #E5FEFF;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    text-align: left;
+}
+
+.sourceTextWhite {
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+.sourceTextDark {
+    color: #1A1B26;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+.sourceTextDarkCard {
+    color: #1A1B26;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    text-align: left;
+}
+
+/* footer styles */
+
+.footImg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 20px;
+}
+
+/* google font information
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Source+Sans+Pro:wght@400;700&display=swap');
+</style>
+
+font-family: 'Dosis', sans-serif;
+font-family: 'Source Sans Pro', sans-serif; */
